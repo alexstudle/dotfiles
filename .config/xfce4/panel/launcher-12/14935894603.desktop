@@ -1,0 +1,25 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Google Chrome
+GenericName=Navigateur Web
+Comment=Accéder à Internet
+Icon=/opt/google/chrome/product_logo_256.png
+Exec=/usr/bin/google-chrome-stable %U
+NoDisplay=false
+Categories=Network;WebBrowser;
+MimeType=text/html;text/xml;application/xhtml_xml;image/webp;x-scheme-handler/http;x-scheme-handler/https;x-scheme-handler/ftp;
+StartupNotify=false
+Terminal=false
+Actions=NewWindow;NewPrivateWindow;
+X-XFCE-Source=file:///home/alexandre/.local/share/applications/google-chrome.desktop
+
+[Desktop Action NewWindow]
+Name=Nouvelle fenêtre
+Exec=/usr/bin/google-chrome-stable
+OnlyShowIn=Unity
+
+[Desktop Action NewPrivateWindow]
+Name=Nouvelle fenêtre de navigation privée
+Exec=/usr/bin/google-chrome-stable --incognito
+OnlyShowIn=Unity
