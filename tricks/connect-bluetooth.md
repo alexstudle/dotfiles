@@ -1,9 +1,13 @@
 # Connect a device with bluetooth...
 
-first in a shell: bluetoothctl
+first in a shell: 
+```
+bluetoothctl
+```
 
 then follow the step:
 
+```
 [bluetooth]# power off
 [bluetooth]# power on
 [bluetooth]# scan on
@@ -14,3 +18,4 @@ then follow the step:
 [Arc Touch Mouse SE]# unblock
 [Arc Touch Mouse SE]# power off
 [bluetooth]# power on
+```
